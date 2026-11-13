@@ -1,5 +1,6 @@
 # Ml_assignment-24CHE133
-This project uses the Kaggle “Student Performance” dataset (about 10,000 students: hours studied, previous scores, extracurricular activities, sleep hours, practice papers, and a Performance Index).
+This project uses the Kaggle “Student Performance” dataset (about 10,000 students: hours studied, previous scores, extracurricular activities, sleep hours, practice papers, and a Performance Index).  
+
 Model 1 predicts the Performance Index ; Model 2 predicts whether a student does extracurricular activities (Yes/No).
 I used Linear Regression for Model 1 and Logistic Regression for Model 2, both with an 80/20 train-test split after removing duplicate rows(127 duplicate rows where present) & no missing values were found.
 I converted the Yes/No for extracurricular activities into 1/0 by using 'ONE HOT ENCODING'
